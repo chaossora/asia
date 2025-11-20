@@ -1,0 +1,85 @@
+{
+  "config": {
+    "base_year": 2024,
+    "partners": [
+      "Japan",
+      "Mexico",
+      "Canada",
+      "Korea",
+      "EU",
+      "China",
+      "Rest"
+    ],
+    "sigma": 3.0,
+    "sigma_grid": [
+      3.0,
+      4.0,
+      5.0
+    ],
+    "eta": 1.0,
+    "reciprocal_tariff_japan": 0.25,
+    "jp_brand_margins": {
+      "Toyota": {
+        "base": 0.028,
+        "shock": 0.006
+      },
+      "Honda": {
+        "base": 0.05,
+        "shock": 0.03
+      },
+      "Nissan": {
+        "base": 0.01,
+        "shock": -0.01
+      }
+    },
+    "jp_brand_weights": {
+      "Toyota": 0.4,
+      "Honda": 0.35,
+      "Nissan": 0.25
+    }
+  },
+  "tau0_dict": {
+    "Japan": 0.0288160489847286,
+    "Mexico": 0.0,
+    "Canada": 0.0,
+    "Korea": 0.00012122973503174414,
+    "EU": 0.02854473277399342,
+    "China": 0.025557668468284344
+  },
+  "tau_next_dict": {
+    "Mexico": 0.0,
+    "Canada": 0.0,
+    "Japan": 0.11383333333333333,
+    "Korea": 0.10714285714285714,
+    "EU": 0.11383333333333333,
+    "China": 0.11383333333333333,
+    "Rest": 0.11383333333333333
+  },
+  "market_shares": {
+    "Japan": 0.04965680412102544,
+    "Mexico": 0.10378395474870732,
+    "Canada": 0.042334505702733095,
+    "Korea": 0.045256429295332905,
+    "EU": 0.037841029893287616,
+    "China": 0.004561263793198211,
+    "Rest": 0.6820528289356107
+  },
+  "avg_price_by_partner": {
+    "Canada": 30887.893460388997,
+    "China": 6362.015653002164,
+    "EU": 58386.58732524671,
+    "Japan": 29607.77613309253,
+    "Korea": 24452.100183197275,
+    "Mexico": 27102.117133269603,
+    "Rest": 54735.003211278345
+  },
+  "io_multiplier": 5.5474352,
+  "io_emp_per_output": 3.2143750265885565e-06,
+  "lambda_jp_from_toyota": {
+    "JP": 0.4905997586413628,
+    "US": 0.4905997586413628,
+    "MX": 0.018800482717274376
+  },
+  "sigma_estimated": 5.0,
+  "eta_estimated": 1.0
+}
